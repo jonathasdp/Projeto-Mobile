@@ -245,6 +245,8 @@ public class Tela_infos_do_cadastro extends AppCompatActivity {
             stmt.executeUpdateDelete();
 
             banco.close();
+
+            finish();
         }catch (Exception e){
             e.printStackTrace();
         }
